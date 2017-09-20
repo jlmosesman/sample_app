@@ -11,7 +11,7 @@ class ActiveSupport::TestCase
   end
 
   # log in as a particular user
-  def log_in__as(user)
+  def log_in_as(user)
     session[:user_id] = user.id
   end
 end
